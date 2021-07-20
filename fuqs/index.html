@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FUQs</title>
+        <link href="/style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div>
+            <br>
+            <img src="/logo.png" alt="exozyme" height="324" width="324">
+            <br>
+            
+            <h2>Frequently Unasked Questions</h2>
+            <br>
+            <p>
+                <b>I've joined exozyme, now what?</b>
+            </p>
+            <p>
+                Great that you asked! We have a number of <a href="https://exozy.me/services/">services</a>, and if you want to try one of them, just ask on <a href="https://matrix.to/#/#general:exozy.me">Matrix</a>. You can also try out our fast virtual machines and containers.
+            </p>
+            <br>
+            <p>
+                <b>How can I run graphical apps?</b>
+            </p>
+            <p>
+                The easiest way (at least for Linux users) is SSH forwarding with <i>ssh -X</i>. We also have VirtualGL set up so you can use <i>vglclient</i> to connect with SSH and <i>vglrun</i> to run apps with 3D acceleration. If you would like a VNC session, just ask me on Matrix and I'll get it set up. We're also working on setting up XRDP and X2Go, which are much more convenient.
+            </p>
+            <br>
+            <p>
+                <b>Can I host my own website?</b>
+            </p>
+            <p>
+                Yes! Just remember that this server is down for part of the day. You can use exozyme pages to host your website simply by creating a new folder with your username in <i>/srv/http/pages</i> and adding your content to that folder. Now go to <a href="https://exozy.me/~username">exozy.me/~username</a> to see your new website in action! If you need a subdomain instead like <a href=https://ta180m.exozy.me/>ta180m.exozy.me</a>, I can get one set up for you too.
+            </p>
+            <br>
+            <p>
+                <b>Can you install <i>X</i>?</b>
+            </p>
+            <p>
+                If it's free and open-source, then most likely yes! Just ask on Matrix, as usual. I'm a bit stricter about proprietary software, but if you have a legitimate reason for it, then sure.
+            </p>
+            <br>
+            <p>
+                <b>How many cores or how much disk space am I allowed to use?</b>
+            </p>
+            <p>
+                You'll be delighted to hear that there's no hard limit! However, you should generally be courteous about the other users, so try not to use more than 4 cores and 50GB of our fast NVME storage. You can also run intensive commands with <i>nice [NUMBER]</i>, where a higher number will cause it to be less disruptive to other users' work. If you need more storage, ask me about it on Matrix and I can give you up to 500GB of HDD storage. Of course, if you absolutely need more than this, we can have a chat about it on Matrix.
+            </p>
+            <br>
+            <p>
+                <b>Why is the connection speed so slow?</b>
+            </p>
+            <p>
+                Blame the ISPs. The my ISP's download speed is quite fast, but its upload speed is horrendous. This translates to a low download speed for users like you. Most people have slow upload speeds too, so that makes the connection slow both ways. I really should contact my ISP about it...
+            </p>
+            <br>
+            <p>
+                <b>Can I have sudo privileges?</b>
+            </p>
+            <p>
+                Probably not, unless you have a seriously legitimate reason for it. The exception is if I'm on vacation or something and designate someone temporarily as the administrator of exozyme.
+            </p>
+            <br>
+            <p>
+                <b>I need help with something!</b>
+            </p>
+            <p>
+                You know the drill: ask on Matrix!
+            </p>
+            <br>
+        </div>
+    </body>
+</html>
+ 
