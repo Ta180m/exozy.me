@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quickstart</title>
+        <link href="/style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div>
+            <br>
+            <img src="/logo.png" alt="exozyme" height="324" width="324">
+            <br>
+            
+            <h2>Get started!</h2>
+            
+            <h3>Join us!</h3>
+            <p>
+                Interested in exozyme? You can get started by shooting me a message on <a href="https://matrix.org">Matrix</a>, a private, decentralized messaging service, <a href="https://matrix.to/#/@ta180m:exozy.me">@ta180m:exozy.me</a>. Note that we offer two kinds of <a href="/services">services</a> to our users, <b>core services</b> and <b>web services</b>. Please specify if you would like an account for the core services, and account for the web services, or both, as well as what you plan to do with exozyme. Note that these two accounts are <b>differenet and unrelated</b>. You should also join our <a href="https://matrix.to/#/!dRcbHQEbbDRNcYShLo:exozy.me?via=exozy.me&via=matrix.org">Matrix space</a> since it's our main hub for communication.
+            </p>
+            <br>
+            
+            <h3>Logging in</h3>
+            <p>
+                OK, so you've joined exozyme! Now what? You can get started by downloading an RDP remote desktop client if you don't already have one. Linux users should use the FreeRDP client in their distro's repository, while Windows has a built-in client called Remote Desktop Connection. Mac users can use the <a href="https://install.appcenter.ms/orgs/rdmacios-k2vy/apps/microsoft-remote-desktop-for-mac/distribution_groups/all-users-of-microsoft-remote-desktop-for-mac">Microsoft Remote Desktop Beta client</a>. If your OS wasn't listed, check <a href="https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients">this list</a>.
+            </p>
+            <br>
+            <p>
+                Alright, so we've gotten that out of the way. Now spin up the client and connect to the address <i>exozy.me:3388</i>. You should see a login screen, where you'll type in your username and password for your <b>core services</b> account. If it all works, it should drop you into a desktop! It might take a few seconds to load properly. Enjoy your remote desktop!
+            </p>
+            <br>
+            <p>
+                The first thing you should do is open up a terminal. One way to do this is by searching for "terminal" in the application menu in the bottom left corner. Now change your password with the <i>passwd</i> command. If you need 3D acceleration, such as for games, you can use the <i>vglrun</i> command. Note that the GPU currently isn't that good, so your experience may vary. Please remember to log out when you are done.
+            </p>
+            <br>
+            
+            <h3>SSH</h3>
+            <p>
+                If you don't need a desktop, you can also log in to a terminal with SSH. If you want to run graphical apps, you can use X11 forwarding with <i>ssh -X</i>. Note that this works best with a Linux client; otherwise, <a href="https://researchit.las.iastate.edu/x-forwarding-mac-and-windows">follow these instructions</a>.
+            </p>
+            <br>
+            
+            <h3>Hosting your first website</h3>
+            <p>
+                Open up the file explorer in your remote desktop or log in with SSH. Now navigate to the <i>/srv/http/pages</i> folder. Create a new folder with your username which will hold the content for your website. Now let's make an actual page. Create a file called <i>index.html</i> and write some text. If you open up <a href="https://exozy.me/~USERNAME">https://exozy.me/~USERNAME</a>, you should see your website in action! Check out <a href="/~pages/">exozyme pages</a> for more information about web hosting.
+            </p>
+            <br>
+        </div>
+    </body>
+</html>
+ 
