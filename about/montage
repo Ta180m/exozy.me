@@ -1,0 +1,1 @@
+montage -resize 480x480 -tile 6x5 -border 10 -bordercolor white icons/* montage.png
