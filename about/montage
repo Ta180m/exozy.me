@@ -1,1 +1,0 @@
-montage icons/* -geometry 480x480 -tile 6x5 -border 20 -bordercolor white montage.png
