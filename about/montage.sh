@@ -7,5 +7,5 @@ for old in *; do
 done
 cd ..
 montage icons/*-large.svg -geometry 540x540 -tile 6x6 -border 30 -bordercolor white montage.png
-convert montage.png -resize 25% montage.webp
+convert montage.png -resize 50% montage.webp
 gio trash icons/*-large.svg
