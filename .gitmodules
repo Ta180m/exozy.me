@@ -1,6 +1,6 @@
 [submodule "blog"]
 	path = blog
-	url = https://github.com/exozyme/blog
+	url = https://git.exozy.me/exozyme/blog.git
 [submodule "howtuwu"]
 	path = howtuwu
 	url = https://github.com/Ta180m/howtuwu.git
